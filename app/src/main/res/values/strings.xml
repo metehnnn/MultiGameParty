@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Multi Game Party</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="entries">
+        <item>Kolay</item>
+        <item>Orta</item>
+        <item>Zor</item>
+        <item>Uzman</item>
+    </string-array>
+
+    <string name="prompt">Select Mode</string>
+    <string name="catch_the_jerry">ℂ𝕒𝕥𝕔𝕙 𝕋𝕙𝕖 𝕁𝕖𝕣𝕣𝕪</string>
+    <string name="name">𝔸𝕕</string>
+    <string name="word">Harf</string>
+    <string name="guess">Tahmin Et</string>
+    <string name="correct_guess">Doğru Tahmin</string>
+    <string name="congratulations">"𝕋𝕖𝕓𝕣𝕚𝕜𝕝𝕖𝕣 ! "</string>
+    <string name="msg_lose">Kardam Adam Asıldı!!</string>
+    <string name="msg_restart_game">𝕋𝕖𝕜𝕣𝕒𝕣 𝕠𝕪𝕟𝕒𝕞𝕒𝕜 𝕚𝕤𝕥𝕖𝕣 𝕞𝕚𝕤𝕚𝕟𝕚𝕫 ?</string>
+    <string name="txt_yes">𝔼𝕧𝕖𝕥</string>
+    <string name="txt_no">ℍ𝕒𝕪ı𝕣</string>
+    <string name="matching_game">𝔽𝕚𝕟𝕕 𝕋𝕙𝕖 𝕊𝕒𝕞𝕖</string>
+    <string name="matching_game_description">Kartların üzerine tıklayarak eşini bulabilecek misin ?\nKartları eşleştir puanı kap.</string>
+    <string name="sos_game">𝕊 𝕆 𝕊</string>
+    <string name="easy">𝕂𝕆𝕃𝔸𝕐</string>
+    <string name="normal">𝕆ℝ𝕋𝔸</string>
+    <string name="hard">ℤ𝕆ℝ</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="expert">Uzman</string>
+    <string name="single_player">𝕋𝕖𝕜 𝕆𝕪𝕦𝕟𝕔𝕦𝕝𝕦</string>
+    <string name="multi_player">İ𝕜𝕚 𝕆𝕪𝕦𝕟𝕔𝕦𝕝𝕦</string>
+    <string name="shark_hunter_game">𝕊𝕙𝕒𝕣𝕜 ℍ𝕦𝕟𝕥𝕖𝕣</string>
+    <string name="body_label">TETRIS</string>
+    <string name="button_sounds">SOUNDS</string>
+    <string name="button_pause">PAUSE</string>
+    <string name="button_reset">RESET</string>
+    <string name="button_up">▲</string>
+    <string name="button_left">◀</string>
+    <string name="button_right">▶</string>
+    <string name="button_down">▼</string>
+    <string name="button_rotate">ROTATE</string>
+    <string name="space_war">Andromeda War</string>
+    <string name="hopscotch">ℍ𝕠𝕡𝕤𝕔𝕠𝕥𝕔𝕙</string>
+    <string name="msg_congratulations">𝕋𝔼𝔹ℝİ𝕂𝕃𝔼ℝ</string>
+    <string name="msg_finish">𝕋𝔼𝔹ℝİ𝕂𝕃𝔼ℝ.\n𝕋𝕖𝕜𝕣𝕒𝕣 𝕆𝕪𝕟𝕒𝕞𝕒𝕜 İ𝕤𝕥𝕖𝕣 𝕄𝕚𝕤𝕚𝕟𝕚𝕫?</string>
+    <string name="info_hopstock">𝔻𝕠ğ𝕣𝕦 𝕜𝕦𝕥𝕦𝕔𝕦ğ𝕦 𝕤𝕖ç𝕖𝕣𝕖𝕜 𝕔𝕒𝕞𝕕𝕒𝕟 𝕓𝕒𝕤𝕒𝕞𝕒𝕜𝕝𝕒𝕣ı 𝕠𝕝𝕒𝕟 𝕜ö𝕡𝕣ü𝕕𝕖𝕟 𝕜𝕒𝕣şı𝕪𝕒 𝕘𝕖ç𝕞𝕖𝕪𝕚 𝕓𝕒ş𝕒𝕣𝕒𝕓𝕚𝕝𝕖𝕔𝕖𝕜 𝕞𝕚𝕤𝕚𝕟 ? 𝔼ğ𝕖𝕣 𝕪𝕒𝕟𝕝ış 𝕜𝕦𝕥𝕦𝕪𝕦 𝕤𝕖ç𝕖𝕣𝕤𝕖𝕟 𝕜𝕦𝕥𝕦 𝕣𝕖𝕟𝕘𝕚 𝕜ı𝕣𝕞ı𝕫ı𝕪𝕒 𝕕ö𝕟𝕖𝕣 𝕧𝕖 𝕤ı𝕣𝕒 𝕣𝕒𝕜𝕚𝕓𝕖 𝕘𝕖ç𝕖𝕣..</string>
+    <string name="info_find_the_same">𝕂𝕒𝕣𝕥𝕝𝕒𝕣ı𝕟 𝕖ş𝕝𝕖𝕣𝕚𝕟𝕚 𝕓𝕦𝕝𝕒𝕓𝕚𝕝𝕖𝕔𝕖𝕜 𝕞𝕚𝕤𝕚𝕟 ? 𝔼ğ𝕖𝕣 𝕕𝕠ğ𝕣𝕦 𝕥𝕒𝕙𝕞𝕚𝕟 𝕖𝕕𝕖𝕣𝕤𝕖𝕟 𝕕𝕖𝕧𝕒𝕞 𝕖𝕕𝕖𝕓𝕚𝕝𝕚𝕣𝕤𝕚𝕟 𝕪𝕒𝕟𝕝ış 𝕥𝕒𝕙𝕞𝕚𝕟𝕕𝕖 𝕤ı𝕣𝕒 𝕣𝕒𝕜𝕚𝕓𝕖 𝕘𝕖ç𝕖𝕣..</string>
+    <string name="info_main">İ𝕤𝕥𝕖𝕣 𝕥𝕖𝕜 𝕜𝕚ş𝕚𝕝𝕚𝕜 𝕚𝕤𝕥𝕖𝕣 𝕒𝕣𝕜𝕒𝕕𝕒ş𝕝𝕒𝕣ı𝕟ı𝕫𝕝𝕒 𝕓𝕚𝕣𝕝𝕚𝕜𝕥𝕖 𝕠𝕪𝕟𝕒𝕪𝕒𝕓𝕚𝕝𝕖𝕔𝕖ğ𝕚𝕟𝕚𝕫 𝕠𝕪𝕦𝕟𝕝𝕒𝕣 𝕚ç𝕖𝕣𝕖𝕟 𝕄𝕦𝕝𝕥𝕚 𝔾𝕒𝕞𝕖 ℙ𝕒𝕣𝕥𝕪 𝕤𝕚𝕫𝕚 𝕖ğ𝕝𝕖𝕟𝕕𝕚𝕣𝕞𝕖𝕪𝕚 𝕙𝕖𝕕𝕖𝕗𝕝𝕖𝕞𝕖𝕜𝕥𝕖𝕕𝕚𝕣. 𝕆𝕪𝕦𝕟𝕝𝕒𝕣 𝕒𝕣𝕒𝕤ı𝕟𝕕𝕒 𝕘𝕖ç𝕚ş 𝕪𝕒𝕡𝕞𝕒𝕜 𝕚ç𝕚𝕟 𝕜𝕒𝕣𝕥𝕝𝕒𝕣ı 𝕤𝕒ğ𝕒 𝕧𝕖𝕪𝕒 𝕤𝕠𝕝𝕒 𝕜𝕒𝕪𝕕ı𝕣𝕞𝕒𝕟ı𝕫 𝕪𝕖𝕥𝕖𝕣𝕝𝕚𝕕𝕚𝕣. 𝔹𝕚𝕣 𝕠𝕪𝕦𝕟𝕦 𝕠𝕪𝕟𝕒𝕞𝕒𝕜 𝕚ç𝕚𝕟 𝕠𝕪𝕦𝕟 𝕜𝕒𝕣𝕥ı𝕟ı 𝕪𝕦𝕜𝕒𝕣ı𝕪𝕒 𝕜𝕒𝕪𝕕ı𝕣𝕞𝕒𝕟ı𝕫 𝕧𝕖 𝕒𝕣𝕕ı𝕟𝕕𝕒𝕟 𝕓𝕒ş𝕝𝕒𝕥𝕞𝕒𝕟ı𝕫 𝕪𝕖𝕥𝕖𝕣𝕝𝕚𝕕𝕚𝕣. 𝕆𝕪𝕦𝕟 𝕜𝕒𝕣𝕥ı 𝕪𝕦𝕜𝕒𝕣ı𝕕𝕒𝕪𝕜𝕖𝕟 𝕒ş𝕒ğı 𝕜𝕒𝕪𝕕ı𝕣ı𝕣𝕤𝕒𝕟ı𝕫 𝕕𝕚ğ𝕖𝕣 𝕠𝕪𝕦𝕟𝕝𝕒𝕣 𝕒𝕣𝕒𝕤ı𝕟𝕕𝕒 𝕘𝕖𝕫𝕚𝕟𝕖𝕓𝕚𝕝𝕚𝕣𝕤𝕚𝕟𝕚𝕫.\n𝕄𝕦𝕝𝕥𝕚 𝔾𝕒𝕞𝕖 ℙ𝕒𝕣𝕥𝕪 𝕚𝕪𝕚 𝕖ğ𝕝𝕖𝕟𝕔𝕖𝕝𝕖𝕣 𝕕𝕚𝕝𝕖𝕣..</string>
+    <string name="info_sos">𝕂𝕦𝕥𝕦𝕔𝕦𝕜𝕝𝕒𝕣ı𝕟 ü𝕫𝕖𝕣𝕚𝕟𝕖 𝕥ı𝕜𝕝𝕒𝕟𝕒𝕣𝕒𝕜 𝕊 𝕧𝕖𝕪𝕒 𝕆 𝕙𝕒𝕣𝕗𝕝𝕖𝕣𝕚𝕟𝕕𝕖 𝕓𝕚𝕣 𝕥𝕒𝕟𝕖𝕤𝕚 𝕤𝕖ç𝕚𝕝𝕚𝕣.
+𝔹𝕦𝕣𝕒𝕕𝕒 𝕒𝕞𝕒ç 𝕤𝕠𝕝𝕕𝕒𝕟 𝕤𝕒ğ𝕒,𝕪𝕦𝕜𝕒𝕣ı𝕕𝕒𝕟 𝕒ş𝕒ğı𝕪𝕒 𝕧𝕖𝕪𝕒 ç𝕒𝕡𝕣𝕒𝕫 𝕠𝕝𝕒𝕣𝕒𝕜 𝕊𝕆𝕊 𝕪𝕒𝕫𝕒𝕓𝕚𝕝𝕞𝕖𝕜𝕥𝕚𝕣. 𝔹𝕦 𝕪ü𝕫𝕕𝕖𝕟 𝕙𝕒𝕣𝕗𝕝𝕖𝕣𝕚 𝕜𝕠𝕪𝕕𝕦ğ𝕦𝕟𝕦𝕫 𝕪𝕖𝕣𝕚 𝕚𝕪𝕚 𝕤𝕖ç𝕞𝕖𝕟𝕚𝕫 𝕘𝕖𝕣𝕖𝕜𝕞𝕖𝕜𝕥𝕖𝕕𝕚𝕣. Ö𝕣𝕟𝕖ğ𝕚𝕟 𝕓𝕚𝕣 𝕊 𝕙𝕒𝕣𝕗𝕚𝕟𝕚𝕟𝕚𝕟 𝕪𝕒𝕟ı𝕟𝕒 𝕪𝕒𝕕𝕒 ç𝕒𝕡𝕣𝕒𝕫ı𝕟𝕒 𝕆 𝕙𝕒𝕣𝕗𝕚 𝕜𝕠𝕪𝕒𝕣𝕤𝕒𝕟ı𝕫 𝕤ı𝕣𝕒 𝕣𝕒𝕜𝕚𝕓𝕖 𝕘𝕖ç𝕖𝕣 𝕧𝕖 𝕣𝕒𝕜𝕚𝕓𝕚𝕟𝕚𝕫 𝕊 𝕙𝕒𝕣𝕗𝕚𝕟𝕚 𝕜𝕠𝕪𝕒𝕣𝕤𝕒 𝕊𝕆𝕊 𝕪𝕒𝕫ı𝕝ı𝕣 𝕧𝕖 𝟙 𝕡𝕦𝕒𝕟 𝕜𝕒𝕫𝕒𝕟ı𝕣. 𝔼𝕟 ç𝕠𝕜 𝕊𝕆𝕊 𝕪𝕒𝕫𝕒𝕟 𝕠𝕪𝕦𝕟𝕦 𝕜𝕒𝕫𝕒𝕟ı𝕣.𝕆𝕪𝕦𝕟𝕔𝕦 𝕚𝕤𝕚𝕞𝕝𝕖𝕣𝕚𝕟𝕚𝕟 ü𝕫𝕖𝕣𝕚𝕟𝕕𝕖𝕜𝕚 ç𝕦𝕓𝕦𝕜 𝕤ı𝕣𝕒𝕪ı 𝕚𝕗𝕒𝕕𝕖 𝕖𝕕𝕖𝕣 𝕤ı𝕣𝕒 𝕜𝕚𝕞𝕕𝕖𝕪𝕤𝕖 𝕠 𝕠𝕪𝕦𝕟𝕔𝕦𝕟𝕦𝕟 ü𝕫𝕖𝕣𝕚𝕟𝕕𝕖𝕜𝕚 ç𝕦𝕓𝕦𝕜 𝕪𝕖ş𝕚𝕝 𝕪𝕒𝕟𝕒𝕣.\nİ𝕪𝕚 𝕖ğ𝕝𝕖𝕟𝕔𝕖𝕝𝕖𝕣..</string>
+    <string name="info_shark_hunter">𝔻𝕒𝕝𝕘ıçı𝕟 ü𝕫𝕖𝕣𝕚𝕟𝕖 𝕓𝕒𝕤ı𝕝ı 𝕥𝕦𝕥𝕒𝕣𝕒𝕜 𝕪𝕦𝕜𝕒𝕣ı 𝕙𝕒𝕣𝕖𝕜𝕖𝕥 𝕖𝕥𝕥𝕚𝕣𝕚𝕝𝕚𝕣 𝕖ğ𝕖𝕣 𝕓𝕒𝕤ı𝕝ı 𝕥𝕦𝕥𝕞𝕒𝕪ı 𝕓ı𝕣𝕒𝕜ı𝕣𝕤𝕒𝕟ı𝕫 𝕕𝕒𝕝𝕘ıç 𝕒ş𝕒ğı 𝕙𝕒𝕣𝕖𝕜𝕖𝕥 𝕖𝕕𝕖𝕣.𝔼𝕜𝕣𝕒𝕟ı𝕟 𝕤𝕒ğ 𝕥𝕒𝕣𝕒𝕗ı𝕟𝕒 𝕓𝕒𝕤ı𝕝𝕒𝕣𝕒𝕜 𝕞ı𝕫𝕣𝕒𝕜 𝕒𝕥ı𝕝𝕒𝕓𝕚𝕝𝕚𝕣.𝔻𝕒𝕝𝕘ıçı𝕟 ü𝕫𝕖𝕣𝕚𝕟𝕖 𝕓𝕒𝕤ı𝕝ı 𝕥𝕦𝕥𝕒𝕣𝕤𝕒𝕟ı𝕫 𝕞ı𝕫𝕣𝕒𝕜 𝕒𝕥𝕒𝕞𝕒𝕫𝕤ı𝕟ı𝕫. 𝕄ı𝕫𝕣𝕒𝕜 𝕒𝕥𝕒𝕓𝕚𝕝𝕞𝕖𝕜 𝕚ç𝕚𝕟 𝕕𝕒𝕝𝕘ıçı𝕟 𝕒ş𝕒ğı 𝕪ö𝕟𝕕𝕖 𝕙𝕒𝕣𝕖𝕜𝕖𝕥 𝕖𝕥𝕞𝕖𝕤𝕚 𝕘𝕖𝕣𝕖𝕜𝕝𝕚𝕕𝕚𝕣.𝔼ğ𝕖𝕣 𝕂ö𝕡𝕖𝕜 𝕓𝕒𝕝ığı𝕟𝕒 𝕥𝕖𝕞𝕒𝕤 𝕖𝕕𝕖𝕣𝕤𝕖𝕟𝕚𝕫 𝕠𝕪𝕦𝕟 𝕓𝕚𝕥𝕖𝕣.
+𝔸𝕞𝕒ç 𝕖𝕟 ç𝕠𝕜 𝕤𝕒𝕪ı𝕕𝕒 𝕜ö𝕡𝕖𝕜 𝕓𝕒𝕝ığı𝕟ı 𝕒𝕧𝕝𝕒𝕪𝕒𝕓𝕚𝕝𝕞𝕖𝕜𝕥𝕚𝕣.</string>
+    <string name="txt_ok">𝕋𝔸𝕄𝔸𝕄</string>
+    <string name="txt_dont_show_again">𝕋𝕖𝕜𝕣𝕒𝕣 𝔾ö𝕤𝕥𝕖𝕣𝕞𝕖</string>
+
+</resources>

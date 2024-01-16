@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/multiparty_logo"
+                android:backgroundTint="@color/lime_green" />
+
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/infoCard"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/bg_multiparty"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="15dp">
+            <TextView
+                android:id="@+id/infoText"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/cbDontShowAgain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_dont_show_again"
+                android:layout_marginEnd="20dp"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="15dp"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/frmOk"
+        android:layout_marginTop="180dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOk"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="@string/txt_ok"
+            android:textColor="@color/white"
+            android:src="@drawable/ic_play_arrow"
+            android:backgroundTint="@color/Orange" />
+
+
+    </FrameLayout>
+</FrameLayout>

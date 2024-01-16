@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/multiparty_logo"
+                android:backgroundTint="@color/lime_green" />
+
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/bg_multiparty"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="15dp">
+
+            <TextView
+                android:id="@+id/winText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="𝕊ü𝕣𝕖 𝔻𝕠𝕝𝕕𝕦!"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/infoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="𝕊𝕂𝕆ℝ : %s\n 𝕋𝕖𝕜𝕣𝕒𝕣 𝕠𝕪𝕟𝕒𝕞𝕒𝕜 𝕚𝕤𝕥𝕖𝕣 𝕞𝕚𝕤𝕚𝕟𝕚𝕫?"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/frmNo"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="120dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnCancel"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_close"
+            app:backgroundTint="@color/red" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/frmOk"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnRestart"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_play_arrow"
+            android:backgroundTint="@color/lime_green" />
+
+
+    </FrameLayout>
+</FrameLayout>

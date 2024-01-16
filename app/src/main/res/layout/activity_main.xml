@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    android:id="@+id/motionlayout"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/guide"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/soundControl"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/sound_on"
+        android:contentDescription="TODO" />
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_info"
+        android:contentDescription="TODO" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardCenter"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="90"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/catcj_jerry"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardRight1"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="110"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="20"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/panda">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardRight2"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="130"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="40"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/diver">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardRight3"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="150"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="190dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/hopstock">
+        </ImageView>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLeft1"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="70"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="340"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sos">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLeft2"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="50"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="320"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/soon">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLeft3"
+        android:layout_width="170dp"
+        android:layout_height="108dp"
+        android:rotation="30"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:layout_constraintCircle="@+id/guide"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="190dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/soon">
+        </ImageView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/infoCard"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+    <include
+        layout="@layout/detail_layout">
+    </include>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/infoBar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:textColor="@color/AntiqueWhite">
+        </TextView>
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+    <include layout="@layout/button_layout"
+        android:id="@+id/buttonLayout"
+        android:layout_height="0.4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
